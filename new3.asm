@@ -4,13 +4,13 @@
 
 main:
     mov rax, 5
-	mov rbx, 10
-	cmp rax, rbx
-	je if_equal
+    mov rbx, 10
+    cmp rax, rbx
+    je if_equal
 	
-	mov rax, 3
-	mov rbx, 2
-	jne if_not_equal
+    mov rax, 3
+    mov rbx, 2
+    jne if_not_equal
 	
 if_equal:
     jmp program_end
