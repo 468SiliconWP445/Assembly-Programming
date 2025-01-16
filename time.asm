@@ -4,7 +4,7 @@
 
 main:
     xor rax, rax
-    mov rcx, 100000000
+    mov rcx, 10000000000
 
 loop_start:
     add rax, rcx
