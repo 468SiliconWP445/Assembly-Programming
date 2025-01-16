@@ -17,9 +17,9 @@ if_equal:
     
 if_not_equal:
     mov rax, 20
-	jmp program_end
+    jmp program_end
     
 program_end:
-	mov rdi, 0
+    mov rdi, 0
     call ExitProcess
 	
